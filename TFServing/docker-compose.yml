@@ -1,0 +1,12 @@
+version: '3'
+services:
+  tfserving:
+    container_name: 'whale_tf_serving'
+    restart: 'always'
+    build: .
+    volumes:
+      - ./modeldir:/models
+    ports:
+      - 8501:8501
+      - 9000:9000
+    command: ["tensorflow_model_server", "--model_config_file=/models/models.conf"]
