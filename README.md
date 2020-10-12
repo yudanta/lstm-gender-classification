@@ -2,8 +2,9 @@
 repo for serial post about simple text classification, predicting gender based on name as input feature
 
 ## Dockers
-Tensorflow Serving Implementation are in TFServing directory
-Flask Implementation are in FlaskServing directory
+[1] Tensorflow Serving Implementation are in TFServing directory
+
+[2] Flask Implementation are in FlaskServing directory
 
 ## Character Dictionary
 char_dictionary.json
