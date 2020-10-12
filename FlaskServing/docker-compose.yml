@@ -1,0 +1,14 @@
+version: '2'
+services:
+  tagger:
+    container_name: 'genderapi'
+    build: .
+    volumes: 
+      - .:/home/tagger/src
+    ports: 
+      - 9901:9901
+    environment:
+      - FLASK_APP=/home/tagger/src/run.py
+      - FLASK_DEBUG=1
+      - ENV=devel
+    command: flask run --host=0.0.0.0 --port=9901

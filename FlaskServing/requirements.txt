@@ -1,0 +1,13 @@
+aniso8601
+Flask
+flask-restplus
+Flask-WTF
+h5py
+Jinja2
+Keras
+Keras-Applications
+Keras-Preprocessing
+pytz
+termcolor
+tensorflow
+numpy

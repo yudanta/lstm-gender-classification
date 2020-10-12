@@ -3,6 +3,7 @@ repo for serial post about simple text classification, predicting gender based o
 
 ## Dockers
 Tensorflow Serving Implementation are in TFServing directory
+Flask Implementation are in FlaskServing directory
 
 ## Character Dictionary
 char_dictionary.json
@@ -14,4 +15,4 @@ LSTM-Character-Level-Gender-Classification.ipynb
 
 [2] https://yudanta.github.io/posts/series-2-exporting-lstm-gender-classification-and-serving-with-tensorflowserving/
 
-[3]
+[3] https://yudanta.github.io/posts/series-3-exporting-lstm-gender-classification-and-serving-with-flask/
